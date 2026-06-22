@@ -11,7 +11,7 @@ import axios from "axios";
 import BASE_URL from "../components/urls";
 
 const schema = yup.object().shape({
-  email: yup.string().required("email, phone number or email is required"),
+  email: yup.string().required("Email or $pagatag is required"),
   password: yup.string().required("Password is required"),
 });
 
