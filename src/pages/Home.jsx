@@ -49,18 +49,18 @@ const Home = () => {
         </div>
         <div className="title">Welcome Back</div>
         <div className="subText">
-          Log in to your account and pick up right where you left off
+          Glad you're back, let's get to business
         </div>
       </div>
       <div className="loginWrapper">
         <div className="loginSec">
           <form onSubmit={handleSubmit(submitForm)}>
-            <label htmlFor="username">Email/$pagatag</label>
+            <label htmlFor="username">Email / $pagatag</label>
             <div className="formInput">
               <input
                 name="email"
                 type="text"
-                placeholder="Enter Email/$pagatag"
+                placeholder="Enter Email / $pagatag"
                 required
                 {...register("email")}
               />
